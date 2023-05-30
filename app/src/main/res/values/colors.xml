@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="east_bay">#FF433A6C</color>
+    <color name="apricot">#FFEB8B64</color>
+    <color name="sycamore">#FFA0A140</color>
+    <color name="horizon">#FF5F8CAC</color>
+</resources>

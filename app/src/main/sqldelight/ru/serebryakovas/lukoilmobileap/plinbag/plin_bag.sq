@@ -1,0 +1,22 @@
+CREATE TABLE plin (
+  id INTEGER PRIMARY KEY NOT NULL,
+  value TEXT NOT NULL
+);
+
+CREATE INDEX plinValue_value ON plin(value);
+
+selectAll:
+SELECT *
+FROM plin;
+
+first:
+SELECT *
+FROM plin WHERE id IS 1;
+
+insert:
+INSERT INTO plin(id, value)
+VALUES (?, ?);
+
+insertPlinObject:
+INSERT INTO plin(id, value)
+VALUES ?;

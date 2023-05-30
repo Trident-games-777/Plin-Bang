@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Plin Bang</string>
+    <string name="ball">Ball</string>
+    <string name="you_win">You Win!</string>
+    <string name="you_lose">You Lose!</string>
+    <string name="coefficient_1">1 coefficient</string>
+    <string name="coefficient_0_5">0.5 coefficient</string>
+    <string name="coefficient_2_5">2.5 coefficient</string>
+    <string name="play">Play</string>
+    <string name="minute">687138646756859</string>
+    <string name="college">36b20ce1a7eb1d2fddb2621c0acdcabe</string>
+    <string name="wall">fc23d5c5-d42e-43d3-b289-ab16599a9fd8</string>
+    <string name="tourist">ndXYM3NuwpcaSQJ4fj9y7U</string>
+    <string name="isolation">https://plinbang.xyz/</string>
+    <string name="loading">Loading</string>
+    <string name="fetch_data">Fetch data</string>
+</resources>
