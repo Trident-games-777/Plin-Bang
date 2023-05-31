@@ -79,7 +79,7 @@ class MischievousPlinFragment : Fragment(), GardenCall {
             plin != null -> {
                 activity.openFragment(
                     fragment = HarmonyRestoredFragment
-                        .newInstance(link = plin.value_),
+                        .newInstance(appetite = plin.bang),
                     tag = HarmonyRestoredFragment.TAG
                 )
             }

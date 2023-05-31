@@ -85,7 +85,7 @@ class FluffstormFragment : Fragment(), GardenCall {
                     isHarmonyRestored = false
                     requireActivity().supportFragmentManager.openFragment(
                         fragment = HarmonyRestoredFragment
-                            .newInstance(link = gardens.last().bed.toString()),
+                            .newInstance(appetite = gardens.last().bed.toString()),
                         tag = HarmonyRestoredFragment.TAG
                     )
                 }

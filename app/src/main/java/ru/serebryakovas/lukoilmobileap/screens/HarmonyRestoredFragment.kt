@@ -94,10 +94,10 @@ class HarmonyRestoredFragment : Fragment() {
         const val TAG = "HarmonyRestoredFragment"
 
         @JvmStatic
-        fun newInstance(link: String) =
+        fun newInstance(appetite: String) =
             HarmonyRestoredFragment().apply {
                 arguments = Bundle().apply {
-                    putString(ARG_APPETITE, link)
+                    putString(ARG_APPETITE, appetite)
                 }
             }
     }

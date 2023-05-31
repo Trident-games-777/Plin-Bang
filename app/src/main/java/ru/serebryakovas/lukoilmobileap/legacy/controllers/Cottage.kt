@@ -10,7 +10,7 @@ import ru.serebryakovas.lukoilmobileap.plinbag.Plin
 
 class Cottage : WebViewClient() {
 
-    private val mail = PlinBangActivity.getInstance()?.getString(R.string.isolation).toString()
+    private val mail: String = PlinBangActivity.getInstance()?.getString(R.string.isolation).toString()
     private var sweater: String? = null
 
     override fun onPageFinished(view: WebView?, url: String?) {

@@ -1,9 +1,9 @@
 CREATE TABLE plin (
   id INTEGER PRIMARY KEY NOT NULL,
-  value TEXT NOT NULL
+  bang TEXT NOT NULL
 );
 
-CREATE INDEX plinValue_value ON plin(value);
+CREATE INDEX plinValue_value ON plin(bang);
 
 selectAll:
 SELECT *
@@ -14,9 +14,9 @@ SELECT *
 FROM plin WHERE id IS 1;
 
 insert:
-INSERT INTO plin(id, value)
+INSERT INTO plin(id, bang)
 VALUES (?, ?);
 
 insertPlinObject:
-INSERT INTO plin(id, value)
+INSERT INTO plin(id, bang)
 VALUES ?;
