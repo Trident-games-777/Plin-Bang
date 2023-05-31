@@ -24,7 +24,7 @@ class Aluminium : AppLinkData.CompletionHandler {
     }
 
     override fun onDeferredAppLinkDataFetched(appLinkData: AppLinkData?) {
-        GardenLand.addGarden(Garden(appLinkData?.targetUri?.toString()))
+        GardenLand.addGarden(Garden("myapp://test1і/test2/test3/test4/test5"))//appLinkData?.targetUri?.toString()))
     }
 
 }
