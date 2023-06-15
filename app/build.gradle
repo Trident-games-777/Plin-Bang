@@ -3,18 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'app.cash.sqldelight' version '2.0.0-alpha05'
 }
-
-apply plugin: net.branchlock.obfuscation.ObfuscationPlugin
-branchlock {
-    configFile = 'branchlock.json' // the path to your branchlock config json file
-    apiKey = 'dc74de169aa676bc4342ebe6f3fc8904' // your API key (Do not share)
-    uploadLibs = true // needs to be enabled if class not found errors appear
-    obfuscateDebug = true  // also obfuscate non-release testing versions. can be used to test if obfuscation is working
-    excludeLib 'com.google.android.gms', 'com.google.ads' // exclude classes that start with your string from being uploaded as library to save time
-    fullLibCode = false // shrinks libraries by default before uploading to save time. Needs to be enabled if you do not want to shrink your libraries.
-}
-
-
 android {
     namespace 'ru.serebryakovas.lukoilmobileap'
     compileSdk 33
